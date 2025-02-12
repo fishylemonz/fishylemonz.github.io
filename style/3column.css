@@ -15,7 +15,7 @@ body {
   padding: 0;
   margin: 0;
   background: #facbd8;
-  background-image: url("img/bg/islandbig.png");
+  background-image: url("../img/bg/islandbig.png");
   background-size: cover;
   image-rendering: pixelated;
   }
@@ -53,8 +53,8 @@ center {
   }
   
 .header {
+  background-image: url("../img/bg/waves.png");
   background: #facbd8;
-  background-image: url("img/bg/waves.png");
   background-origin: border-box;
   background-position: bottom;
   text-align: center;
@@ -154,7 +154,7 @@ center {
   margin: 10px 0px 15px 0px;
   border: 3px double #27467d;
   background: #facbd8;
-  background-image: url("img/bg/waves.png");
+  background-image: url("../img/bg/waves.png");
   background-origin: border-box;
   padding: 0;
   color: white;
@@ -175,7 +175,7 @@ center {
   }
   
 .box h1, .box h2, .box h3, .box h4 {
-  background-image: url("img/bg/waves.png");
+  background-image: url("../img/bg/waves.png");
   background-origin: border-box;
   background-position: bottom;
   margin: 0;
