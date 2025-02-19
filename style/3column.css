@@ -57,7 +57,6 @@ center {
 /*Header text at top of page*/  
 .header {
   background-image: url("../img/bg/waves.png");
-  background: #facbd8;
   background-origin: border-box;
   background-position: bottom;
   text-align: center;
@@ -80,18 +79,6 @@ center {
   margin-top: 15px;
   top: 0;
   height: auto;
-  }
-  
-  
-/*Big title at the top of the page.*/  
-.title {
-  display: none;
-  }
-  
-/*Override default margins/padding for headings.*/
-.title h1, .title h2, .title h3 {
-  padding:0;
-  margin: 0;
   }
 
 /*Container for top row of links.*/
