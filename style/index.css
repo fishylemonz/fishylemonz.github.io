@@ -9,7 +9,6 @@ https://eggramen.neocities.org/code
 
 ***/
 
-/*Applies to everythang*/
 body {
   font-size: 0.875em;
   font-family: monospace;
@@ -17,11 +16,10 @@ body {
   margin: 0;
   background: #facbd8;
   background-image: url("../img/bg/islandbig.png");
-  background-size: cover;
+  background-size: auto;
   image-rendering: pixelated;
   }
 
-/*Applies to links, prevents color changes when visited*/
 a, a:visited {
   color: pink;
 }
@@ -39,12 +37,12 @@ center {
   border-right: 0px solid #12282f;  
   margin-bottom: -10px;
   background: none;
-  width: 882px;
+  width: 600px;
   }
   
 /*Contains main and sidebar divs*/
 .wrapper-2 {
-  position: relative;
+  position: center;
 }
   
 /*Header and footer images*/
@@ -53,8 +51,8 @@ center {
   overflow: hidden;
   background-size:cover;
   }
-
-/*Header text at top of page*/  
+  
+/*Header title at top of page*/
 .header {
   background-image: url("../img/bg/waves.png");
   background: #facbd8;
@@ -67,12 +65,11 @@ center {
   border: 3px double #1f3f78;
   color: #021852;
   }
- 
+  
 .footer {
   height: 0;
   }
-
-/*Applies to images in the header*/ 
+  
 .header img {
   border-top: 0px;
   border: 3px double #333;
@@ -93,16 +90,8 @@ center {
   padding:0;
   margin: 0;
   }
-
-/*Container for top row of links.*/
-.links {
-  padding: 5px;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  margin-top: 1em;
-  }
   
-/*Div style for individual links. Do not confuse with .links!*/
+/*Div style for individual links.*/
 .link {
   text-align: center;
   display: inline-block;
@@ -121,41 +110,14 @@ center {
 }
 
 /*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
-.main, .sidebar-right {
-  display: inline-block;
-  }
-  
 .main {
-  width: 500px;
-  margin-left: 191px;
+  /*display: inline-block;*/
+  width: 600px;
   }
-  
-.sidebar-left, .sidebar-right {
-  width: 182px;
-  position: absolute;
-  top: 0;
-  }
-
-.sidebar-left ul, .sidebar-right ul {
-  padding-left: 10px;
-  }
-
-.sidebar-left {
-  margin-left: 0px;
-  }
-  
-.sidebar-right {
-  margin-right: 10px;
-  margin-left: 10px;
-  }
-  
-.sidebar-left a {
-  padding-left: 0px;
-  }  
   
 /*Box used for individual sections in the sidebar, center column, etc.*/
 .box {  
-  margin: 10px 0px 15px 0px;
+  margin: 200px 0px 15px 0px;
   border: 3px double #27467d;
   background: #facbd8;
   background-image: url("../img/bg/waves.png");
@@ -232,30 +194,6 @@ Allows you to stack images directly next to one another*/
   margin-bottom: -2px;
 }
 
-/* For narrow screens. Makes the sidebars narrower, and makes width of the 
- * center/main div 50% of the viewport width.
- */
-@media(max-width:1180px) {
-  .wrapper {
-    width: calc(440px + 50vw);
-    }
-  .main {
-    width: 50vw;
-    }
-  }
-  
-@media(max-width:910px) {
-  .wrapper {
-    width: calc(360px + 52vw);
-    }
-  .sidebar-left, .sidebar-right {
-    width: 160px;
-    }
-  .main {
-    margin-left: 180px;
-    width: 52vw;
-    }
-  }
   
 /* Mobile compatibility. Puts everything into a standard vertical layout. */
 @media(orientation:portrait) {
@@ -270,13 +208,5 @@ Allows you to stack images directly next to one another*/
     margin: 0 auto;
     padding:0;
     position: relative;
-    }
-  .sidebar-left, .main, .sidebar-right {
-    position: relative;
-    width: 92vw;
-    margin: 0.25rem 1vw;
-    }
-  .sidebar-left, .sidebar-right {
-    font-size: 0.95em;
     }
   }
