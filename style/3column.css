@@ -1,23 +1,33 @@
 /***
 
-THIS CODE IS AN EDITED TEMPLATE!
-
-It's based off of EGGRAMAN's Fake WP 2 Skin #2
+This code was built off EGGRAMAN's Fake WP 2 Skin #2.
+It's mostly different now, but I doubt I would have been able to get this far knowing nothing about CSS and building it from scratch. Big thanks to them!
 
 SOURCE:
 https://eggramen.neocities.org/code
 
 ***/
 
+@font-face {
+    font-family: 'blue_ocean';
+    src: url("../../fonts/BLUE_OCEAN.ttf");
+}
+
+@font-face {
+    font-family: "comfortaa";
+    src: url("../../fonts/COMFORTAA_REGULAR.ttf");
+}
+
 /*Applies to everythang*/
 body {
   font-size: 0.875em;
-  font-family: monospace;
+  font-family: comfortaa;
   padding: 0;
   margin: 0;
   background: #facbd8;
   background-image: url("../img/bg/islandbig.png");
-  background-size: cover;
+  background-size: auto;
+  background-position: center;
   image-rendering: pixelated;
   }
 
@@ -57,6 +67,7 @@ center {
 /*Header text at top of page*/  
 .header {
   background-image: url("../img/bg/waves.png");
+  font-family: "blue_ocean";
   background-origin: border-box;
   background-position: bottom;
   text-align: center;
@@ -169,12 +180,29 @@ center {
   background-image: url("../img/bg/waves.png");
   background-origin: border-box;
   background-position: bottom;
+  font-family: blue_ocean;
   margin: 0;
   padding: 0.35em 0.25em 0.3em 0.25em;
   text-align: center;
   border: 3px double #1f3f78;
   color: #021852;
   }
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 10px;
+}
 
 /***
   Not give any style rules by default. Move the padding from the 'box' class here if you want boxes with specially styled headers or images that 
