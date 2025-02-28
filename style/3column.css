@@ -188,6 +188,22 @@ center {
   color: #021852;
   }
 
+/* Applies header styles to internal objects when needed */
+.inner-box {
+  background-image: url("../img/bg/waves.png");
+  background-origin: border-box;
+  background-position: top;
+  font-family: comfortaa;
+  width: 88px;
+  height: 24px;
+  text-align: center;
+  vertical-align:center;
+  border: 3px double #1f3f78;
+  color: #021852;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-size: 22px;
 }
