@@ -4,15 +4,15 @@ body {
     background-attachment: fixed;
 }
 .wrapper {
-  width: 600px;
+  width: 882px;
   }
 
 /*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
 .main {
   /*display: inline-block;*/
-  width: 600px;
-  margin-left: 0px;
-  margin-top:190px;
+  width: 691px;
+  margin-left: 191px;
+  margin-top:0px;
   }
   
 /*Box used for individual sections in the sidebar, center column, etc.*/

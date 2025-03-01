@@ -10,12 +10,12 @@ https://eggramen.neocities.org/code
 
 @font-face {
     font-family: 'blue_ocean';
-    src: url("../../fonts/BLUE_OCEAN.ttf");
+    src: url("fonts/BLUE_OCEAN.ttf");
 }
 
 @font-face {
     font-family: "comfortaa";
-    src: url("../../fonts/COMFORTAA_REGULAR.ttf");
+    src: url("fonts/COMFORTAA_REGULAR.ttf");
 }
 
 /*Applies to everythang*/
@@ -28,6 +28,7 @@ body {
   background-image: url("../img/bg/islandbig.png");
   background-size: auto;
   background-position: center;
+  background-attachment: fixed;
   image-rendering: pixelated;
   }
 
@@ -79,7 +80,7 @@ center {
   }
  
 .footer {
-  height: 0;
+  height: 70px;
   }
 
 /*Applies to images in the header*/ 
@@ -188,14 +189,14 @@ center {
   color: #021852;
   }
 
-/* Applies header styles to internal objects when needed */
-.inner-box {
+/* Applies to webhit counter from wibestitecounterfree.com */
+.webhitcounter {
   background-image: url("../img/bg/waves.png");
   background-origin: border-box;
   background-position: top;
   font-family: comfortaa;
   width: 88px;
-  height: 24px;
+  height: 19px;
   text-align: center;
   vertical-align:center;
   border: 3px double #1f3f78;
