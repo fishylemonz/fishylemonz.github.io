@@ -64,6 +64,10 @@ a, a:visited {
     color: black;
 }
 
+.inner p {
+    background-color: #4A454C;
+}
+
 /*
 
 .sidebox {
