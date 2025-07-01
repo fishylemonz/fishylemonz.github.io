@@ -1,0 +1,38 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.wrapper {
+  width: 600px;
+  }
+
+/*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
+.main {
+  /*display: inline-block;*/
+  width: 600px;
+  margin-left: 0px;
+  margin-top:190px;
+  }
+  
+/*Box used for individual sections in the sidebar, center column, etc.*/
+.box {  
+
+  }
+
+
+/* Mobile compatibility. Puts everything into a standard vertical layout. */
+@media(orientation:portrait) {
+  .wrapper {
+    width: 96vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  .wrapper-2 {
+    width: 94vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  }

@@ -1,0 +1,314 @@
+/***
+
+This code was built off EGGRAMAN's Fake WP 2 Skin #2.
+It's mostly different now, but I doubt I would have been able to get this far knowing nothing about CSS and building it from scratch. Big thanks to them!
+
+SOURCE:
+https://eggramen.neocities.org/code
+
+***/
+
+@font-face {
+    font-family: 'blue_ocean';
+    src: url("fonts/BLUE_OCEAN.ttf");
+}
+
+@font-face {
+    font-family: "comfortaa";
+    src: url("fonts/COMFORTAA_REGULAR.ttf");
+}
+
+/*Applies to everythang*/
+body {
+  font-size: 0.875em;
+  font-family: comfortaa;
+  padding: 0;
+  margin: 0;
+  background: #facbd8;
+  background-image: url("../img/bg/islandbig.png");
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  image-rendering: pixelated;
+  }
+
+/*Applies to links, prevents color changes when visited*/
+a, a:visited {
+  color: pink;
+}
+
+center {
+  text-align: center;
+  }
+  
+/*Contains everything*/
+.wrapper {
+  margin: 0 auto;
+  top: 0;
+  margin-top: -10px;
+  border-left: 0px solid #12282f;
+  border-right: 0px solid #12282f;  
+  margin-bottom: -10px;
+  background: none;
+  width: 882px;
+  }
+  
+/*Contains main and sidebar divs*/
+.wrapper-2 {
+  position: relative;
+}
+  
+/*Header and footer images*/
+.header, .footer {
+  height: 200px;
+  overflow: hidden;
+  background-size:cover;
+  }
+
+/*Header text at top of page*/  
+.header {
+  background-image: url("../img/bg/waves.png");
+  font-family: "blue_ocean";
+  background-origin: border-box;
+  background-position: bottom;
+  text-align: center;
+  margin-top: 30px;
+  top: 0;
+  height: auto;
+  border: 3px double #1f3f78;
+  color: #021852;
+  }
+ 
+.footer {
+  height: 80px;
+  }
+
+/*Applies to images in the header*/ 
+.header img {
+  border-top: 0px;
+  border: 3px double #333;
+  text-align: center;
+  margin-top: 15px;
+  top: 0;
+  height: auto;
+  }
+
+/*Container for top row of links.*/
+.links {
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  margin-top: 1em;
+  }
+  
+/*Div style for individual links. Do not confuse with .links!*/
+.link {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  float: none;
+  font-weight: bold;
+  font-size: 1.16em;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  }
+
+.link a {
+  color: white;
+}
+
+/*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
+.main, .sidebar-right {
+  display: inline-block;
+  }
+  
+.main {
+  width: 500px;
+  margin-left: 191px;
+  }
+  
+.sidebar-left, .sidebar-right {
+  width: 182px;
+  position: absolute;
+  top: 0;
+  }
+
+.sidebar-left ul, .sidebar-right ul {
+  padding-left: 10px;
+  }
+
+.sidebar-left {
+  margin-left: 0px;
+  }
+  
+.sidebar-right {
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  
+.sidebar-left a {
+  padding-left: 0px;
+  }  
+  
+/*Box used for individual sections in the sidebar, center column, etc.*/
+.box {  
+  margin: 10px 0px 15px 0px;
+  border: 3px double #27467d;
+  background: #facbd8;
+  background-image: url("../img/bg/waves.png");
+  background-origin: border-box;
+  padding: 0;
+  color: white;
+  }
+ 
+/*Use for containing images that are not in the typical box class*/
+.cbox {  
+  margin: -10px 0px -17px 0px;
+  padding: 0;
+  vertical-align: middle;
+  overflow: hidden;
+  }
+  
+/*Prevent overflow of large images in main text areas.*/
+.box img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+.box h1, .box h2, .box h3, .box h4 {
+  background-image: url("../img/bg/waves.png");
+  background-origin: border-box;
+  background-position: bottom;
+  font-family: blue_ocean;
+  margin: 0;
+  padding: 0.35em 0.25em 0.3em 0.25em;
+  text-align: center;
+  border: 3px double #1f3f78;
+  color: #021852;
+  }
+
+/* Applies to webhit counter from wibestitecounterfree.com */
+.webhitcounter {
+  background-image: url("../img/bg/waves.png");
+  background-origin: border-box;
+  background-position: top;
+  font-family: comfortaa;
+  width: 88px;
+  height: 19px;
+  text-align: center;
+  vertical-align:center;
+  border: 3px double #1f3f78;
+  color: #021852;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+/***
+  Not give any style rules by default. Move the padding from the 'box' class here if you want boxes with specially styled headers or images that 
+  don't follow the margins of the main text. (For an example of that: see skin #1.)
+  ***/
+.inner {
+  padding: 0.25em 1em 0.3em 1em;
+  font-size: 1.075em;
+  }
+
+/*Site renders images pixelated by default, this class makes them smooth again 
+(Great for larger images that are being resized)*/
+.smooth {
+  image-rendering: auto;
+  }
+ 
+/*For some reason, images in HTML have weird margins and padding by default
+Allows you to stack images directly next to one another*/
+.inner-img {
+  padding: 0;
+  margin: 0;
+  font-size: 1.075em;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: -2px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.inner-img img {
+  float: right;
+  }
+
+/*Apply to the top image(s) in a box*/
+.top-img {
+  margin-top: 1px;
+}
+
+/*Apply to the bottom image(s) in a box*/
+.btm-img, .btm-img img {
+  margin-bottom: -2px;
+}
+
+/* For narrow screens. Makes the sidebars narrower, and makes width of the 
+ * center/main div 50% of the viewport width.
+ */
+@media(max-width:1180px) {
+  .wrapper {
+    width: calc(440px + 50vw);
+    }
+  .main {
+    width: 50vw;
+    }
+  }
+  
+@media(max-width:910px) {
+  .wrapper {
+    width: calc(360px + 52vw);
+    }
+  .sidebar-left, .sidebar-right {
+    width: 160px;
+    }
+  .main {
+    margin-left: 180px;
+    width: 52vw;
+    }
+  }
+  
+/* Mobile compatibility. Puts everything into a standard vertical layout. */
+@media(orientation:portrait) {
+  .wrapper {
+    width: 96vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  .wrapper-2 {
+    width: 94vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  .sidebar-left, .main, .sidebar-right {
+    position: relative;
+    width: 92vw;
+    margin: 0.25rem 1vw;
+    }
+  .sidebar-left, .sidebar-right {
+    font-size: 0.95em;
+    }
+  }

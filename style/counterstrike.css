@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'striker';
+    src: url("fonts/STRIKER.ttf");
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url("fonts/TYPEWRITER.ttf");
+}
+
+@font-face {
+    font-family: 'counter_strike';
+    src: url("fonts/COUNTER_STRIKE.ttf")
+}
+
+body {
+    background-image: url("../img/bg/train.jpg");
+    background-position: center;
+    font-family: typewriter;
+}
+
+a, a:visited {
+    color: black;
+    background-color: #676B74;
+}
+
+.link a {
+    color: black;
+}
+
+.wrapper {
+    border-left: 0px solid #4C413F;
+    border-right: 0px solid #4C413F;
+}
+
+.header {
+    background-image: url("../img/bg/metalwall.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: counter_strike;
+    border: 3px double #4C413F;
+    color: black;
+    height: 74px;
+}
+
+.header img  {
+    border: 3px double #4C413F;
+}
+
+.box {
+    background: black;
+    background-image: url("../img/bg/brickwall2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px double #4A454C;
+    color: black;
+}
+
+.box h1, .box h2, .box h3, .box h4 {
+    background-image: url("../img/bg/metalwall.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'counter_strike';
+    border: 3px double #4C413F;
+    color: black;
+}
+
+.inner p {
+    background-color: #676B74;
+    color: black;
+}
+
+/*
+
+.sidebox {
+    background-image: url(../img/bg/metalwall2.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+*/
+
+.sidebox h1, .sidebox h2, .sidebox h3, .sidebox h4 {
+    background-size: 350%;
+    background-position: left;
+}
+
+h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 17px;
+  }
