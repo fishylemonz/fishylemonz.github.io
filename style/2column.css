@@ -4,22 +4,22 @@ body {
     background-attachment: fixed;
 }
 .wrapper {
-  width: 882px;
+  width: 1000px;
   }
 
 /*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
 .main {
   /*display: inline-block;*/
-  width: 691px;
+  width: 809px;
   margin-left: 191px;
-  margin-top:0px;
+  margin-top: 0px;
   }
   
-/*Box used for individual sections in the sidebar, center column, etc.*/
+/*Box used for individual sections in the sidebar, center column, etc.
 .box {  
 
   }
-
+*/
 
 /* Mobile compatibility. Puts everything into a standard vertical layout. */
 @media(orientation:portrait) {
