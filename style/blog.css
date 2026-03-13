@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'edutorial';
+    src: url("fonts/EXCLUSIVE_EDUTORIAL.ttf");
+}
+
+@font-face {
+    font-family: '';
+    src: url("fonts/");
+}
+
+@font-face {
+    font-family: '';
+    src: url("fonts/")
+}
+
+body {
+    background-image: url("../img/bg/blogbgbig.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'edutorial';
+    background-color: brown;
+}
+
+a, a:visited {
+    color: black;
+}
+
+.link a {
+    color: black;
+}
+
+.wrapper {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+}
+
+.header {
+    background-image: url("../img/bg/");
+    background-position: center;
+    background-size: cover;
+    font-family: 'edutorial';
+    border: 3px double black;
+    background-color: brown;
+    color: black;
+    /*height: 74px;
+    margin-top: 25px;*/
+}
+
+.header img  {
+    border: 3px double black;
+}
+
+.box {
+    background: brown;
+    background-image: url("../img/bg/");
+    background-size: cover;
+    background-position: center;
+    border: 3px double black;
+}
+
+.box h1, .box h2, .box h3, .box h4 {
+    background-image: url("../img/bg/");
+    background-size: cover;
+    background-position: center;
+    font-family: 'edutorial';
+    border: 3px double black;
+    color: black;
+}
+
+.inner {
+    padding: 2;
+    margin-bottom: -2px;
+}
+
+.inner p {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+/*
+
+.sidebox {
+    background-image: url(../img/bg/metalwall2.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+*/
+
+.sidebox h1, .sidebox h2, .sidebox h3, .sidebox h4 {
+    background-size: 350%;
+    background-position: left;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+  }
+  
+h2 {
+    font-size: 25px;
+  }
+  
+h3 {
+    font-size: 20px;
+  }
+  
+h4 {
+    font-size: 17px;
+  }
