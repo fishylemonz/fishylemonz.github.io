@@ -26,7 +26,7 @@ body {
   margin: 0;
   background: #facbd8;
   background-image: url("../img/bg/islandbig.png");
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   image-rendering: pixelated;
@@ -72,9 +72,9 @@ center {
 /*Header text at top of page*/  
 .header {
   background-image: url("../img/bg/waves.png");
-  font-family: "blue_ocean";
   background-origin: border-box;
   background-position: bottom;
+  font-family: "blue_ocean";
   text-align: center;
   margin-top: 30px;
   top: 0;

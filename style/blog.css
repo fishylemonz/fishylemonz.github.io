@@ -36,7 +36,7 @@ a, a:visited {
 }
 
 .header {
-    background-image: url("../img/bg/");
+    background-image: url("../img/bg/blobbg.JPG");
     background-position: center;
     background-size: cover;
     font-family: 'edutorial';
@@ -53,14 +53,12 @@ a, a:visited {
 
 .box {
     background: brown;
-    background-image: url("../img/bg/");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../img/bg/blobbg.JPG");
     border: 3px double black;
 }
 
 .box h1, .box h2, .box h3, .box h4 {
-    background-image: url("../img/bg/");
+    background-image: url("../img/bg/blobbg.JPG");
     background-size: cover;
     background-position: center;
     font-family: 'edutorial';
@@ -114,3 +112,7 @@ h3 {
 h4 {
     font-size: 17px;
   }
+
+.footer {
+    height: 80px;
+}
