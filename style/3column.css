@@ -18,6 +18,11 @@ https://eggramen.neocities.org/code
     src: url("fonts/COMFORTAA_REGULAR.ttf");
 }
 
+@font-face {
+  font-family: "edutorial";
+  src: url("fonts/EXCLUSIVE_EDUTORIAL.ttf")
+}
+
 /*Applies to everythang*/
 body {
   font-size: 0.875em;
