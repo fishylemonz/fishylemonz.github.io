@@ -54,13 +54,14 @@ a, a:visited {
 .box {
     background: brown;
     background-image: url("../img/bg/blobbg.JPG");
+    background-size: auto;
     border: 3px double black;
 }
 
 .box h1, .box h2, .box h3, .box h4 {
     background-image: url("../img/bg/blobbg.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     font-family: 'edutorial';
     border: 3px double black;
     color: black;
@@ -79,6 +80,10 @@ li {
     color: black;
 }
 
+.btm-img {
+    margin-bottom: -4px;
+}
+
 /*
 
 .sidebox {
@@ -89,12 +94,12 @@ li {
 }
 
 */
-
+/*
 .sidebox h1, .sidebox h2, .sidebox h3, .sidebox h4 {
     background-size: 350%;
     background-position: left;
 }
-
+*/
 h1 {
     font-size: 50px;
     margin-top: 7px;

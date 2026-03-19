@@ -269,7 +269,7 @@ Allows you to stack images directly next to one another*/
 
 /*Apply to the bottom image(s) in a box*/
 .btm-img, .btm-img img {
-  margin-bottom: -2px;
+  margin-bottom: -3px;
 }
 
 /* For narrow screens. Makes the sidebars narrower, and makes width of the 
