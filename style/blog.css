@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: 'edutorial';
-    background-color: brown;
+    background-color: #badfd8;
 }
 
 a, a:visited {
@@ -41,7 +41,7 @@ a, a:visited {
     background-size: cover;
     font-family: 'edutorial';
     border: 3px double black;
-    background-color: brown;
+    background-color: #badfd8;
     color: black;
     /*height: 74px;
     margin-top: 25px;*/
@@ -52,7 +52,7 @@ a, a:visited {
 }
 
 .box {
-    background: brown;
+    background: #badfd8;
     background-image: url("../img/bg/blobbg.JPG");
     background-size: auto;
     border: 3px double black;
