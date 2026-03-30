@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'comucan';
+    src: url("fonts/COMUCAN.otf");
+}
+
+@font-face {
+    font-family: '';
+    src: url("fonts/");
+}
+
+@font-face {
+    font-family: '';
+    src: url("fonts/")
+}
+
+body {
+    background-image: url("../img/bg/");
+    background-position: center;
+    color: white;
+    background-color:#0E162B;
+}
+
+a, a:visited {
+    color: white;
+}
+
+.link a {
+    color: white;
+    text-decoration: underline;
+}
+
+.wrapper {
+    border-left: 0px solid #0E162B;
+    border-right: 0px solid #0E162B;
+}
+
+.header {
+    background-image: url("../img/bg/mosaic.JPG");
+    background-position: bottom;
+    background-size: cover;
+    font-family: 'comucan';
+    border: 3px double #0E162B;
+    color: white;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.header img  {
+    border: 3px double white;
+}
+
+.box {
+    background: #525B82;
+    background-size: auto;
+    background-position: top;
+    border: 3px double #0E162B;
+    color: white;
+}
+
+.box h1, .box h2, .box h3, .box h4 {
+    background-image: url("../img/bg/mosaic.JPG");
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'comucan';
+    border: 3px double #0E162B;
+    color: white;
+}
+
+.inner {
+    margin-bottom: 0px;
+}
+
+/*
+
+.sidebox {
+    background-image: url(../img/bg/metalwall2.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+*/
+
+.sidebox h1, .sidebox h2, .sidebox h3, .sidebox h4 {
+    background-position: left;
+    background-size: auto;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+h2 {
+
+    font-size: 35px;
+  }
+  
+h3 {
+    font-size: 20px;
+  }
+  
+h4 {
+    font-size: 17px;
+  }
